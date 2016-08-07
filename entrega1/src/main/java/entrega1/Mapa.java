@@ -133,7 +133,11 @@ public class Mapa {
 
 	public void agregarPOI(POI poi) {
 		addPOI(poi);
+<<<<<<< HEAD
 		System.out.println("Dante chupa chocolate");
+=======
+		System.out.println("a");
+>>>>>>> 8bb5df91485eb7fd51be781ba90dd48688ce269e
 	}
 
 

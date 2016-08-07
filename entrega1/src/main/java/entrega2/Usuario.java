@@ -21,6 +21,7 @@ public class Usuario {
 
 	public String getNombreDeUsuario() {
 		return nombreDeUsuario;
+		System.out.println("retorno el usuario");
 	}
 
 	public void setNombreDeUsuario(String nombreDeUsuario) {
