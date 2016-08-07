@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane>
+               <children>
+                  <VBox AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#crearPOI" prefHeight="25.0" prefWidth="205.0" text="Crear POI" />
+                        <Button mnemonicParsing="false" onAction="#eliminarPOI" prefHeight="25.0" prefWidth="206.0" text="Eliminar POI" />
+                        <Button mnemonicParsing="false" onAction="#consultarPOI" prefHeight="25.0" prefWidth="206.0" text="Consultar POI" />
+                        <Button mnemonicParsing="false" onAction="#modificarPOI" prefHeight="25.0" prefWidth="207.0" text="Modificar POI" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

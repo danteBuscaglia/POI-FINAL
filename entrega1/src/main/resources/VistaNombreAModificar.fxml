@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="316.0" prefWidth="377.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60">
+   <children>
+      <Label layoutX="62.0" layoutY="78.0" text="INGRESE EL NUEVO NOMBRE DEL POI">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="51.0" layoutY="133.0" prefHeight="25.0" prefWidth="292.0" />
+      <Button layoutX="270.0" layoutY="235.0" mnemonicParsing="false" text="FINALIZAR" />
+      <Button layoutX="51.0" layoutY="235.0" mnemonicParsing="false" text="VOLVER" />
+   </children>
+</AnchorPane>
