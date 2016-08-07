@@ -21,7 +21,7 @@ public class Usuario {
 
 	public String getNombreDeUsuario() {
 		return nombreDeUsuario;
-		System.out.println("retorno el usuario");
+		System.out.println("retorno una medialuna");
 	}
 
 	public void setNombreDeUsuario(String nombreDeUsuario) {
