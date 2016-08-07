@@ -133,7 +133,7 @@ public class Mapa {
 
 	public void agregarPOI(POI poi) {
 		addPOI(poi);
-
+		System.out.println("a");
 	}
 
 }
